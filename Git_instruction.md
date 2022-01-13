@@ -13,3 +13,11 @@ git --version
 Загружаем последнюю версию Git  с сайта:
 https://git-scm.com/download/win
 и устанавливаем с настройками "помуполчанию".
+
+## Настройка Git
+
+При первом использовании Git необходимо представиться
+```
+git config --global user.name your name
+git config --global user.email your e-mail
+```
