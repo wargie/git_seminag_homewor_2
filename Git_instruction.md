@@ -21,3 +21,5 @@ https://git-scm.com/download/win
 git config --global user.name your name
 git config --global user.email your e-mail
 ```
+## Установка Visual Studio Code
+
