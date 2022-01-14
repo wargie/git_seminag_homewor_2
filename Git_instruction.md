@@ -22,4 +22,7 @@ git config --global user.name your name
 git config --global user.email your e-mail
 ```
 ## Установка Visual Studio Code
+Загружаем последнюю версию Git  с сайта:
+https://code.visualstudio.com/download
+и устанавливаем с настройками "помуполчанию".
 
