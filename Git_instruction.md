@@ -14,6 +14,11 @@ git --version
 https://git-scm.com/download/win
 и устанавливаем с настройками "помуполчанию".
 
+## Установка Visual Studio Code
+Загружаем последнюю версию Git  с сайта:
+https://code.visualstudio.com/download
+и устанавливаем с настройками "помуполчанию".
+
 ## Настройка Git
 
 При первом использовании Git необходимо представиться
@@ -21,8 +26,5 @@ https://git-scm.com/download/win
 git config --global user.name your name
 git config --global user.email your e-mail
 ```
-## Установка Visual Studio Code
-Загружаем последнюю версию Git  с сайта:
-https://code.visualstudio.com/download
-и устанавливаем с настройками "помуполчанию".
+
 
