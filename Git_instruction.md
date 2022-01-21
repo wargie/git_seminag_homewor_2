@@ -247,3 +247,16 @@ git remote show
 git remote show <branch_name>
 ```
 Выполнив эту команду с некоторым именем, например, origin, вы получите следующий результат:
+```
+remote origin
+  Fetch URL: https://github.com/wargie/git_seminag_homewor_2.git
+  Push  URL: https://github.com/wargie/git_seminag_homewor_2.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (fast-forwardable)
+```
+Команда выдала нам URL удалённого репозитория, а также информацию об отслеживаемых ветках, а так же сообщает, что если мы, находясь на ветке main, выполните `git pull`, ветка main с удалённого сервера будет автоматически влита в нашу сразу после получения всех необходимых данных. Она также выдаёт список всех полученных ею ссылок.
