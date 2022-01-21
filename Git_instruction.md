@@ -288,8 +288,9 @@ git push
 
 ![New pull request_knopka](4.jpg)
 
-После этого требуется нажать кнопку `«Create pull request»`.
-
+После этого требуется нажать кнопку
+`«Create pull request»`.
+![Create pull request_knopka](5.jpg)
 Если есть необходимость, то следует добавить какой-либо комментарий к нашему `pull request`. После этого еще раз нажимаем кнопку `«Create pull request»`.
 
 Pull Request отправлен!
