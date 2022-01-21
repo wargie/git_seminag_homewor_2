@@ -210,14 +210,14 @@ git push -u origin main
 ```
 Кроме того, используя ключ -v, мы можем просмотреть адреса для чтения и записи, привязанные к репозиторию, в нашем случае:
 ```
-origin  https://github.com/wargie/git_seminag_homewor_2.git (fetch)
-origin  https://github.com/wargie/git_seminag_homewor_2.git (push)
-prime_master    https://github.com/wargie/git_seminag_homewor_2.git (fetch)
-prime_master    https://github.com/wargie/git_seminag_homewor_2.git (push)
+origin https://github.com/wargie/git_seminag_homewor_2.git (fetch)
+origin https://github.com/wargie/git_seminag_homewor_2.git (push)
+prime_master https://github.com/wargie/git_seminag_homewor_2.git (fetch)
+prime_master https://github.com/wargie/git_seminag_homewor_2.git (push)
 ```
 * Мы можем клонировать существующий удалённый репозиторий Git, используя команду:
 ```
 git clone <адрес удалённого репозитория>
 ```
+### 4. Загрузка данных из удалённого репозитория
 
-### 4. Загрузить/скачать удалённый репозиторий
