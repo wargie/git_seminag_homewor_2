@@ -277,3 +277,6 @@ git add <file.name>
 git commit -m "Change details"
 git push 
 ```
+После этого остаётся сделать pull request. Для этого перейдите на вкладку Pull Request и справа вверху нажмите кнопку «New pull request».
+
+Затем необходимо нажать кнопку «Create pull request». По желанию, можно добавить какой-нибудь комментарий к вашему pull request. После этого еще раз нажимаем кнопку «Create pull request». Всё, pull request готов.
