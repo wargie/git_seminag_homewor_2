@@ -191,7 +191,33 @@ git checkout -b <new branch name> <commit hash>
 _Удалённый репозиторий_ – это абсолютно полноценный репозиторий, не имеющий никаких отличий от локального: у удалённого репозитория есть собственные ветки, собственный указатель HEAD, своя история коммитов и так далее.
 ### 1. Регистрация аккаунта на [GitHub](https://github.com/)
 Для этого yнеобходимо перейти на [GitHub]( https://github.com/). Далее, находим и нажимаем кнопку «Sign up» (зарегистрироваться). На странице регистрации вам предложат ввести обязательные данные: имя пользователя; адрес электронной почты; пароль. После на указанную ранее почту придёт письмо с просьбой подтвердить электронный адрес. Для завершения регистрации необходимо перейти по полученной ссылке.
-### 2. 
-### 3.
-### 4.
-### 5.
+### 2. Создаём и связываем локальный и удалённый репозиторий
+В обычных случаях мы получаем репозиторий Git двумя способами:
+* Берём локальную папку, которая не находится под контролем (не индексируется), и превращаем её в репозиторий Git:
+```
+git init
+git add Git_instruction.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wargie/git_seminag_homewor_2.git
+git push -u origin main
+```
+* Если репозиторий был создан ранее на локальном пк:
+```
+git remote add origin https://github.com/wargie/git_seminag_homewor_2.git
+git branch -M main
+git push -u origin main
+```
+Кроме того, используя ключ -v, мы можем просмотреть адреса для чтения и записи, привязанные к репозиторию, в нашем случае:
+```
+origin  https://github.com/wargie/git_seminag_homewor_2.git (fetch)
+origin  https://github.com/wargie/git_seminag_homewor_2.git (push)
+prime_master    https://github.com/wargie/git_seminag_homewor_2.git (fetch)
+prime_master    https://github.com/wargie/git_seminag_homewor_2.git (push)
+```
+* Мы можем клонировать существующий удалённый репозиторий Git, используя команду:
+```
+git clone <адрес удалённого репозитория>
+```
+
+### 4. Загрузить/скачать удалённый репозиторий
