@@ -279,9 +279,13 @@ git push
 ```
 После этого необходимо сделать _pull request_.
 
-Для этого необходимо перейти на вкладку `Pull Request`
+Для этого необходимо перейти на вкладку
+`Pull Request`
 ![PullRequests_vkladka](3.jpg)
-и справа вверху нажмите кнопку `«New pull request»`.
+
+и справа вверху нажмите кнопку
+`«New pull request»`.
+
 ![New pull request_knopka](4.jpg)
 
 После этого требуется нажать кнопку `«Create pull request»`.
