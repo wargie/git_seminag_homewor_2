@@ -271,4 +271,9 @@ remote origin
 ```
 git clone <адрес удалённого репозитория
 ```
-
+Сейчас, сделав необходимые правки, сделав коммит, сделав commit, загружаем изменения в свой репозиторий на [GitHub](https://github.com/). Для этого используем команды:
+```
+git add <file.name>
+git commit -m "Change details"
+git push 
+```
